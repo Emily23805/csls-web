@@ -1,3 +1,3 @@
 # !/bin/sh
 screen -d -m &&
-ftp 123.456.78.90 21
+scp /info/info.txt abc@111.222.333.444:/var/www/html/user/$user/
